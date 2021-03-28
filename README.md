@@ -13,3 +13,6 @@ como utilizar string em C
 
 # quarta semana
 uso de struct, enum e unio
+
+# quinta semana
+definição de função, parâmetros e passagem por valor e por referência
