@@ -1,6 +1,6 @@
 # linguagem_c
 
-atividades da disciplina de Programação Estruturada
+atividades da disciplina de Programação Estruturada + curso extra online
 
 # primeira semana
 foi só revisão sobre os conteúdos básicos de lógica de programação (estruturas de repetição e decisão)
