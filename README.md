@@ -19,3 +19,6 @@ definição de função, parâmetros e passagem por valor e por referência
 
 # sexta semana
 definição de função recursiva, funcionamento, cuidados e exemplos
+
+# sétima semana
+introdução a ponteiros, definição, operações e exemplos
