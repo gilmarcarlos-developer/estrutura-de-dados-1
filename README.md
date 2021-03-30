@@ -1,6 +1,7 @@
 # linguagem_c
 
 atividades da disciplina de Programação Estruturada + curso extra online
+ * o resumo de cada conteúdo está salvo no Notion
 
 # primeira semana
 foi só revisão sobre os conteúdos básicos de lógica de programação (estruturas de repetição e decisão)
