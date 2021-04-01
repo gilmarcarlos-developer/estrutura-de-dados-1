@@ -18,7 +18,6 @@ int main(){
             }
         }
         if(primo == 0){
-            //printf("%d ", num1);
             qt_primo++;
         }
         primo = 0;
