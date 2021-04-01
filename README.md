@@ -4,6 +4,7 @@ Atividades desenvolvidas na disciplina de Programação Estruturada + curso extr
 
 # Semanas
 > semana 1: revisão sobre os conteúdos básicos de lógica de programação (estruturas de repetição e decisão)
+
 > semana 2: uso de array
 > semana 3: como utilizar string em C
 > semana 4: uso de struct, enum e unio
