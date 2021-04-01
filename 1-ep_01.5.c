@@ -7,14 +7,11 @@ int main(){
     
     printf("Digite um numero: ");
     scanf("%i", &n);
-    
-    
-    for(int x = 0; x < n; x++){
-        
+   
+    for(int x = 0; x < n; x++){        
         scanf("%i", &numeros);        
-        if(aux < numeros){
+        if(aux < numeros)
             crescente++;
-        }
         aux = numeros;
     }
     
