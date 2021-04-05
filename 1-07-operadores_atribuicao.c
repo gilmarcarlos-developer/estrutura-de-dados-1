@@ -3,11 +3,6 @@
 
 int main(){
     int x = 0, y = 0, z = 0;
-
-    //x = x + 1; é igual ao de baixo
-    x += 1;
-    // que também é igual a
-    x++;
     
     while(y < 6){
         printf("msg1\n");
@@ -28,10 +23,4 @@ int main(){
     return 0;
 }
 
-/* atribuidores que temos
- * += soma
- * -= subtração
- * *= multiplicação
- * /= divisão
- * %= resto da divisão
- */
+
