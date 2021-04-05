@@ -3,22 +3,12 @@
 
 int main(){
 
-    int num1 = 10;
-    int num2 = 0;
-    
-    printf("%i\n", num1==1);
-    printf("%i\n", num2!=1);
-        // verdadeiro imprime-> 1
-        // falso imprime-> 0
-    
-    // == comparação positiva 
-    // != comparação negativa
-    // ! igual a expressão NOT (negação)
+    int num = 0;
     
     printf("Digite um número diferente de 5: ");
-    scanf("%i", &num2);
+    scanf("%i", &num);
     
-    if(num2 != 5){
+    if(num != 5){
         printf("verdadeiro\n");
     }else{
         printf("falso\n");
