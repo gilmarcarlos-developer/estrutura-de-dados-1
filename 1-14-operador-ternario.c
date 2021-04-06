@@ -2,7 +2,6 @@
 
 int main(){
     
-    //funciona igual o if mas com menos linha de código
     //exemplo de if
     int x = 0, y = 0;
     if(x == 0){
@@ -21,16 +20,13 @@ int main(){
     }
     
     //operador ternário
-    // <variavel> = (condição) ? <valor1> : <valor2>;
-    // o sinal : significa "senão"
     int a = 0, b = 0;
+    
     a = (a == 0) ? 10 : 20;
     printf("%i\n", a);
     
     b = (b == 1) ? 10 : 20;
     printf("%i\n", b);
-    
-    //posso colocar mais condições "senao", é só acrescente dois ponto :
     
     return 0;
 }
