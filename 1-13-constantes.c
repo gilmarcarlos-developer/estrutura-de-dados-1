@@ -1,16 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//outro jeito de declarar uma constante
-#define x 7
+#define x 7 //modo 2 de declarar uma constante
 
 int main(){
-
-    //assim se declara uma constante
-    //nao dá pra alterar o valor da constante
-    const int a = 5;
-    printf("%i\n", a);
+    const int a = 5; //modo 1 de declarar uma constante
     
+    printf("%i\n", a);    
     printf("%i\n", x);
     
     return 0;
