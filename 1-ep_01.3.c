@@ -8,7 +8,6 @@ int main(){
     int menor = 0, aux = 0;
     
     do{
-        
         printf("\nEscolha uma das opções: \n1: soma dois numeros \n2: soma tres numeros \n3: multiplicacao de dois numeros: \n0: sair\n");
         scanf("%i", &op);
         
@@ -59,13 +58,11 @@ int main(){
                 }
             }   
         }
-        
-        aux++;
-        
+        aux++;        
     }while(op != 0);
     
     printf("%i", menor);
-    printf("\nSair!\n");
+    printf("\nFim do programa!\n");
     
     return 0;
 }
