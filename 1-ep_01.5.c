@@ -15,11 +15,10 @@ int main(){
         aux = numeros;
     }
     
-    if(crescente == n){
+    if(crescente == n)
         printf("Sim\n");
-    }else{
+    else
         printf("Não\n");
-    }
     
     return 0;
 }
