@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 int main(){
-
-    // mostrando todos os divisores de um numero digitado
-    
+    // entre com um numero e mostre todos os divisores dele
     int num = 0;
     
     printf("Digite um numero inteiro: ");
@@ -12,9 +10,8 @@ int main(){
     printf("\nOs divisores de %i sao: ", num);
     
     for(int x = 1; x <= num; x++){
-        if(num % x == 0){
+        if(num % x == 0)
             printf("%i ", x);
-        }
     }
     
     return 0;
