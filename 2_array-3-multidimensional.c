@@ -2,9 +2,6 @@
 #include <stdlib.h>
 
 int main(){
-    
-    //um array pode ter diversas dimensões
-    
     //array com uma dimensão
     int vetor[5];
     //array com duas dimensões
@@ -14,8 +11,7 @@ int main(){
     //array com quatro dimensões
     int x[3][3][3][3];
     
-    //parar ler ou exibir é só enfiar mais um for dentro
-    //exemplo
+    //exemplo com tres dimensões
     for(int x = 0; x < 3; x++){
         for(int y = 0; y < 3; y++){
             for(int z = 0; z < 3; z++){
