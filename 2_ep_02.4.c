@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Implemente a função remover_duplicados, que recebe um vetor de números inteiros positivos organizados em ordem crescente. A função deve eliminar o mínimo de elementos para que o vetor não contenha nenhum valor positivo repetido. Ao eliminar um elemento, os elementos à diretia serão deslocados à esquerda e será adicionado um valor -1 na última posição. */
+/* Implemente a função remover_duplicados, que recebe um vetor de números inteiros positivos organizados em ordem crescente. 
+A função deve eliminar o mínimo de elementos para que o vetor não contenha nenhum valor positivo repetido.
+Ao eliminar um elemento, os elementos à diretia serão deslocados à esquerda e será adicionado um valor -1 na última posição. */
 
 void remover_duplicados(int vetor[], int qt){
     int aux = qt-1, aux2 = 0;
