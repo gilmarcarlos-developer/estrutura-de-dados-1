@@ -2,11 +2,6 @@
 #include <stdlib.h>
 
 int main(){
-
-    /* string: um array de caracteres
-     * permite armazenar uma sequência de caracteres adjacentes na memória (palavra) */
-    
-    //forma geral: char <nome_array> [<tamanho>]
     
     //exemplo
     char palavra[20];
