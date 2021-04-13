@@ -34,14 +34,14 @@ int main(){
     //como inverter dentro do próprio vetor
     char str3[20] = "Linguagem C";
     char c;
-    int tam = strlen(str);
+    int tam = strlen(str3);
     
     for(int x = 0; x < tam/2; x++){
-        c = str[x];
-        str[x] = str[tam-1-x];
-        str[tam-1-x] = c;
+        c = str3[x];
+        str3[x] = str3[tam-1-x];
+        str3[tam-1-x] = c;
     }
-    printf("Invertendo dentro da própria string: %s", str);
+    printf("Invertendo dentro da própria string: %s", str3);
     
     printf("\n");
     return 0;
