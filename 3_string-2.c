@@ -6,27 +6,14 @@ int main(){
     
     char str1[20] = "Hello World";
     char str2[20];
-    int x = 0;
     
-    //passando uma palavra de uma string para outra
-    //o '\0' indica final da palavra
-    for(x = 0; str1[x] != '\0'; x++)
+    for(int x = 0; str1[x] != '\0'; x++)
         str2[x] = str1[x];
     str2[x] = '\0';
     
     printf("%s\n", str2);
     
-    /* a linguagem c possui algumas funções para manipular strings 
-    
-    biblioteca <string.h>
-    
-    strlen mostra o tamanho da string
-    strcpy copia uma string
-    strcat concatena duas strings
-    strcmp compara duas string
-    
-    */
-    
+    //----- funções da biblioteca <string.h>
     //strlen
     char palavra[20] = "Linguagem C";
     int tamanho = strlen(palavra);
