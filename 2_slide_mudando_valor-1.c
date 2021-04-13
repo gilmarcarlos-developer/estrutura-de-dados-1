@@ -1,21 +1,20 @@
 #include <stdio.h>
 
-//função
-void muda_valor(int parametro){
-    parametro = 507;
-    
-    printf("%d\n", parametro);
-}
+void muda_valor(int vetor[]);
 
 int main(){
-    int n = 200;
+    int v[3] = {200, 500, 300};
     
-    //primeiro ele chama a funcao, altera o valor e imprime o novo valor
-    muda_valor(n);
-    //depois volta pra cá e imprime o valor da variável n
-    printf("%d\n", n);
+    muda_valor(v); /* aqui passa a primeira posição do vetor, 
+				sendo assim eu tenho acesso ao vetor inteiro não precisa colocar os colchetes */
     
-    //a função apenas mudou o valor lá em cima, ele não altera a variavel daqui
+    printf("%d %d %d\n", v[0], v[1], v[2]);
     
     return 0;
+}
+
+void muda_valor(int vetor[]){
+    vetor[1] = 90;
+    
+    printf("%d\n", vetor[0]);
 }
