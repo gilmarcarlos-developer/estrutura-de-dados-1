@@ -10,5 +10,5 @@ Atividades desenvolvidas na disciplina de Programação Estruturada + curso extr
   <li>Struct</li>
   <li>Strings</li>
   <li>Array</li>
-  <li>revisão sobre os conteúdos básicos de lógica (estruturas de repetição e decisão)</li>
+  <li>Revisão sobre os conteúdos básicos de lógica (estruturas de repetição e decisão)</li>
 </ul>
