@@ -1,10 +1,11 @@
 Atividades desenvolvidas na disciplina de Programação Estruturada + curso extra online
  * meu resumo pessoal de cada conteúdo está salvo no Notion
 
-# Estruturas de dados utilizadas:
+# Técnicas utilizadas:
 <ul>
   <li>Array</li>
   <li>Matriz</li>
+  <li>Ponteiro</li>
 </ul>
 
 # Conteúdos abordados
